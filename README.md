@@ -1,7 +1,7 @@
 # QE-Plotting Program
  This program plots the raw data from the University of Toledo's PV Measurements, Inc.'s EQE measurement device for tandem solar cell characterization. Given the wavelength and quantum efficiency (QE) of each subcell, the program will plot each curve and display the sample's Jsc in AM1.5G and AM0, Jsc mismatch, and band gap (Eg). 
 
-![](/QE Example Plots.png)
+![QE Example Plot](https://github.com/KhoaWeston/QE-Plotting-Program/blob/master/QE%20Example%20Plots.png)
 
 
 
