@@ -170,12 +170,6 @@ def plot_both(curr_subcell, past_subcell):
     return
 
 
-def smooth(y, box_pts):
-    box = np.ones(box_pts) / box_pts
-    y_smooth = np.convolve(y, box, mode='same')
-    return y_smooth
-
-
 def get_super(x):
     normal = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+-=()"
     super_s = "ᴬᴮᶜᴰᴱᶠᴳᴴᴵᴶᴷᴸᴹᴺᴼᴾQᴿˢᵀᵁⱽᵂˣʸᶻᵃᵇᶜᵈᵉᶠᵍʰᶦʲᵏˡᵐⁿᵒᵖ۹ʳˢᵗᵘᵛʷˣʸᶻ⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁼⁽⁾"
